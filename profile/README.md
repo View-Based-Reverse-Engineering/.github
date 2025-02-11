@@ -1,12 +1,8 @@
-## Hi there 👋
+# Retriever: A View-Driven Approach to Reverse Engineering Software Architectures
 
-<!--
+**Retriever** is an open-source tool that implements a novel model-driven reverse engineering approach to automatically extract, refine, and integrate software architecture models from heterogeneous artifacts (e.g., source code, configuration files, build scripts, and docker files). This repository contains all the code, extraction rules, composition and refinement modules, and evaluation data from the associated scientific articles.
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Using Retriever, researchers and practitioners can
+- Automatically recover both structural and behavioral views of complex software systems.
+- Integrate disparate artifact data into a unified, component-based architectural model.
+- Generate models that serve as the basis for quality prediction and continuous architectural review in CI/CD pipelines.
